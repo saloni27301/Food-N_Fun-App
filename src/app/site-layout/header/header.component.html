@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container px-4 px-lg-5">
+        <img src="../assets/logo1.png" style="width:60px;height:60px; position:relative;top:-10px;left:10px;" (click)="home()" alt="">
+        <a class="navbar-brand m-0 text-center text-white" style="cursor:pointer" (click)="home()"> <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">Food-N-Fun</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 " style="cursor:pointer">
+                <li class="nav-item "><a class="nav-link active m-0 text-center text-white" aria-current="page"(click)="home()" >Home</a></li>
+                <li class="nav-item"><a class="nav-link m-0 text-center text-white" (click)="about()">About</a></li>
+                <li class="nav-item"><a class="nav-link m-0 text-center text-white" (click)="menu()">Menu</a></li>
+            </ul>
+            <form class="d-flex ">
+                <button class="btn btn-sm btn-outline-light m-0 text-center" type="button" (click)="cartNavigate()"> 
+                    <i class="bi-cart-fill me-0 m-10 text-center text-white"></i>
+                    Cart {{totalItem}}
+                    <!-- <span class=" bg-dark text-white rounded-pill ">{{totalItem}}</span> -->
+                </button>
+            </form>
+                <button (click)="logout()" type="button"class="btn btn-outline-light m-1  mx-3 text-center">
+                    {{showMe?"Login":"Logout"}}
+                </button>
+        </div>
+    </div>
+</nav>
+

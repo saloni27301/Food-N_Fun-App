@@ -1,0 +1,36 @@
+.about{
+    background-image: url('src\assets\15.jpg');
+    height:30vh;
+    padding-top:30px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    margin-bottom: 70px;
+}
+.col-7 h1{
+    text-align: center;
+    color:black;
+}
+.col-7 button:hover{
+    background-color: rgb(213, 173, 97);
+}
+.row{
+    margin-bottom: 20px;
+    margin:50px;
+}
+.col-7{
+    color:rgb(72, 116, 72);
+    margin-bottom: 50px;
+    margin-left: 70px;
+
+}
+.col-7 button{
+    border: none;
+    padding: 10px;
+}
+.col-4 img{
+    width:115%;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,14 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color:red;
+}
+.btn{
+    height: 39px;
+    width: 70px;
+    
+}

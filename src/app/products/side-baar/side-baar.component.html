@@ -1,0 +1,11 @@
+
+<h4 style="color:red">Select as per your taste</h4>
+<a routerLink="/products" class="list-group-item text-cen" style="background-color: rgb(231, 83, 83); color:white;padding:10px;border:1px solid white;border-radius: 5px;">View All Products</a>
+
+<a routerLink="/products/add-product" class="list-group-item text-cen" style="background-color: rgb(231, 83, 83); color:white;padding:10px;border:1px solid white;border-radius: 5px;">Add New Product</a>
+
+
+<div class="list-group .py-30" *ngFor="let catg of categoryList" >
+    <a routerLink="/products/category/{{catg.id}}" class="list-group-item " >{{catg.categoryName}}</a>
+    
+</div>

@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h1 style="color:orangered;box-shadow: 2px;border-bottom:1px solid orange;">Checkout</h1>
+            <!-- <h5 style="color:white">Register Yourself!</h5> -->
+         </div>
+         
+        <div class="col-md-6">
+
+            <div class="">
+                <p style="color:orangered;">Please fill your information carefully!</p>
+                 <form [formGroup]="checkoutForm" (ngSubmit)="checkout()">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                        <input formControlName="fullname" type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                        <input formControlName="mobile" type="number" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Address</label>
+                        <input formControlName="Address" type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">CityandState</label>
+                        <input formControlName="CityandState" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text" style="color:white">We'll never share your email with anyone else.</div>
+                      </div>
+                     
+                      <!-- <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> -->
+                      <button type="submit" class="btn btn-danger">Submit Form</button>
+                 </form>
+                 <!-- <a routerLink="/login" style="color:white;margin-top:10px;">Already Registerd?Click to Login</a> -->
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card my-9">
+            <h5>Your grandtotal is:${{grandTotal}}</h5>
+            <p>Thank you!!,Your food will be deliverd soon.</p>
+        </div>
+        <p>Need more Item to be added</p>
+        <button routerLink="/cart-product" class="btn btn-danger">Back to menu</button>
+        
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<h2 class="text-center">Showing result by category</h2>
+<section >
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4  row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" style="width:150%; padding-right:200px;">
+            <div class="col mb-5 " *ngFor="let products of productList">
+                <div class="card h-100" >
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{{products.productImg}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <a routerLink="/products/view-product/{{products.id}}" ><h5 class="fw-bolder" >{{products.name}}</h5></a> 
+                            <p class="">{{products.description}}</p>
+                            <!-- Product price-->
+                          Price: ${{products.price}}
+                          <p>Ratings:{{products.rating}}</p>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                    </div> -->
+                </div>
+            </div>
+            

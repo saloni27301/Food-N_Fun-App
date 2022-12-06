@@ -1,0 +1,21 @@
+<section ><!--class="py-5"-->
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4  row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center " style="width:150%; padding-right:200px;">
+            <div class="col mb-5 mx-3 pl-1" *ngFor="let products of productList">
+                <div class="card h-100" >
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{{products.productImg}}" alt="..."  />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                           <a routerLink="view-product/{{products.id}}" style="text-decoration:none;"><h5 class="fw-bolder" style="color:rgb(231, 61, 61);">{{products.name}}</h5></a> 
+                            <p class="" style="color:rgb(200, 150, 23)">{{products.description}}</p>
+                            <!-- Product price-->
+                            <p style="color:black">Price:${{products.price}}</p>
+                             <span class="text-center" style="color:green">Rating:{{products.rating}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            

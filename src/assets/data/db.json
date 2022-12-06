@@ -1,0 +1,172 @@
+{
+  "product": [
+    {
+      "categoryId": 1,
+      "name": "Pizza Mania",
+      "description": "Crunchyy onion pizza on a crispy base",
+      "rating": "5",
+      "price": 300,
+      "productImg": "http://localhost:4200/assets/1.jpg",
+      "isAvailable": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Dragon Noodles",
+      "categoryId": 2,
+      "description": "Noodles sauteed with capsicum",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/2.jpg",
+      "rating": "3.0"
+    },
+    {
+      "id": 3,
+      "name": "Red-sauce-Pasta",
+      "categoryId": 3,
+      "description": "Pasta in spicy tomato sauce .",
+      "price": 600,
+      "productImg": "http://localhost:4200/assets/3.jpg",
+      "rating": "4.0"
+    },
+    {
+      "id": 4,
+      "name": "white-Sauce pasta",
+      "categoryId": 3,
+      "description": "Creamy white sauce.",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/4.jpg",
+      "rating": "4.0"
+    },
+    {
+      "id": 5,
+      "name": "Hot-Soup",
+      "categoryId": 5,
+      "description": " soups with veggies...",
+      "price": 200,
+      "productImg": "http://localhost:4200/assets/5.jpg",
+      "rating": "5.0"
+    },
+    {
+      "id": 6,
+      "name": "Chinese Noodles",
+      "categoryId": 2,
+      "description": "Noodles with Veggies",
+      "price": 400,
+      "productImg": "http://localhost:4200/assets/11.jpg",
+      "rating": "3.0"
+    },
+    {
+      "categoryId": 4,
+      "name": "Burger Singh",
+      "description": "Burger singh Special.",
+      "rating": "4",
+      "price": 100,
+      "productImg": "http://localhost:4200/assets/6.jpg",
+      "isAvailable": 1,
+      "id": 7
+    },
+    {
+      "id": 9,
+      "name": "Pizza Delicious",
+      "categoryId": 1,
+      "description": "Pan India Pizza",
+      "price": 150,
+      "productImg": "http://localhost:4200/assets/8.jpg",
+      "rating": "4.5"
+    },
+    {
+      "id": 9,
+      "name": "Corn Soup",
+      "categoryId": 5,
+      "description": "Soups with corn",
+      "price": 250,
+      "productImg": "http://localhost:4200/assets/9.jpg",
+      "rating": "3.6"
+    },
+    {
+      "categoryId": "4",
+      "name": "Burger",
+      "description": "Big burger for You",
+      "rating": "3",
+      "price": "209",
+      "productImg": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "isAvailable": 1,
+      "id": 117
+    },
+    {
+      "productID": 21,
+      "categoryId": "4",
+      "name": "Crispy French Fries",
+      "description": "Potato French Fries with peri peri sauce",
+      "rating": "4",
+      "price": "150",
+      "productImg": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "isAvailable": 1,
+      "review": "4",
+      "id": 119
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Pizza Mania"
+    },
+    {
+      "id": 2,
+      "categoryName": "Noodles"
+    },
+    {
+      "id": 3,
+      "categoryName": "Pasta"
+    },
+    {
+      "id": 4,
+      "categoryName": "Burger&Fries"
+    },
+    {
+      "id": 5,
+      "categoryName": "Soups"
+    }
+  ],
+  "SignupUsers": [
+    {
+      "fullname": "saloni gupta",
+      "email": "saloni27301@gmail.com",
+      "password": "1111",
+      "mobile": 9318336914,
+      "id": 1,
+      "admin": true
+    },
+    {
+      "fullname": "shreya",
+      "email": "shreyasaxena117@gmail.com",
+      "password": "2222",
+      "mobile": 987836826,
+      "id": 2
+    }
+  ],
+  "checkout": [
+    {
+      "fullname": "priya gupta",
+      "mobile": 936567654,
+      "Address": "G-16,Nyay Khand 3rd Indirapuram Ghaziabad",
+      "CityandState": "uttarpradesh",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
