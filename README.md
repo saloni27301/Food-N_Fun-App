@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## JSON Server
+Use this command for invoke json-api in your local system :- `cd app\assets\data` for reaching at the desired file folder.
+Then  run `npx json-server --watch db.json` for your local server at your pc.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
