@@ -33,3 +33,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## HOME PAGE
 <img width="924" alt="1" src="https://user-images.githubusercontent.com/78437156/214007245-33694903-bb32-4bfb-b306-2972a7681cd3.png">
+
+## About PAGE
+<img width="922" alt="3" src="https://user-images.githubusercontent.com/78437156/214008034-03a4ab79-be67-4e44-92b0-4e93448b6c05.png">
