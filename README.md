@@ -40,3 +40,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Menu PAGE
 <img width="923" alt="4" src="https://user-images.githubusercontent.com/78437156/214008394-0deec127-3e55-4d88-abe0-e5c408d6769d.png">
 
+## ADD-TO-CART PAGE
+<img width="922" alt="5" src="https://user-images.githubusercontent.com/78437156/214008668-cdb14aab-ded8-4f06-ab26-4ab7104593d6.png">
